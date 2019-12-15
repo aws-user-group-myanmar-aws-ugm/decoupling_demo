@@ -1,3 +1,8 @@
+### Install packages
+```bash
+sudo yum install git python3 -y
+```
+
 ### Prepare environment
 ```bash
 python3 -m venv venv
