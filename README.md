@@ -24,6 +24,11 @@ python3 -m http.server
 env FLASK_APP=producer.py flask run --host=0.0.0.0
 ```
 
+### Init Database
+```bash
+python db.py
+```
+
 ### Run Stats frontend
 ```bash
 env FLASK_APP=stats.py flask run --host=0.0.0.0
